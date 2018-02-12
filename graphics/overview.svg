@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="614px" height="65px" viewBox="0 0 614 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="19.5670836" cy="19.5670836" r="19.5670836"></circle>
+        <circle id="path-3" cx="19.4860515" cy="19.4860515" r="19.4860515"></circle>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Group-7" transform="translate(0.000000, 1.000000)">
+                <g id="JourneyStep/User/Start-Copy-3">
+                    <text id="I-want-to-make-a-pay" font-family="BGFlame-Italic, BG Flame" font-size="7.2" font-style="italic" font-weight="normal" line-spacing="9" fill="#333F48">
+                        <tspan x="5.6513" y="53.2">I want to make a </tspan>
+                        <tspan x="17.6141" y="62.2">payment</tspan>
+                    </text>
+                    <circle id="Oval" stroke="#333F48" stroke-width="2" fill="#D8D8D8" cx="32.0445313" cy="20.4445312" r="20.4445313"></circle>
+                    <g id="-copy" transform="translate(12.477448, 1.052937)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                        <path d="M32.4372086,35.6705365 C32.4372086,31.5875755 31.4797001,25.3186043 26.1863037,25.3186043 C25.6262515,25.3186043 23.2595794,27.829806 19.7186043,27.829806 C16.1776292,27.829806 13.8109571,25.3186043 13.250905,25.3186043 C7.95750856,25.3186043 7,31.5875755 7,35.6705365 C7,38.5972608 8.95114953,40.3496821 11.8236752,40.3496821 L27.6135334,40.3496821 C30.4860591,40.3496821 32.4372086,38.5972608 32.4372086,35.6705365 L32.4372086,35.6705365 Z M26.6560248,19.5374205 C26.6560248,15.7073863 23.5486386,12.6 19.7186043,12.6 C15.8885701,12.6 12.7811838,15.7073863 12.7811838,19.5374205 C12.7811838,23.3674548 15.8885701,26.4748411 19.7186043,26.4748411 C23.5486386,26.4748411 26.6560248,23.3674548 26.6560248,19.5374205 L26.6560248,19.5374205 Z" fill="#333F48" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+                <g id="Group-6" transform="translate(548.400000, 3.000000)">
+                    <text id="I-have-made-a-paymen" font-family="BGFlame-Italic, BG Flame" font-size="7.2" font-style="italic" font-weight="normal" line-spacing="9" fill="#333F48">
+                        <tspan x="11.0012" y="48.2">I have made a </tspan>
+                        <tspan x="18.7016" y="57.2">payment</tspan>
+                    </text>
+                    <g id="-copy" transform="translate(9.200000, 0.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" fill="#FFFFFF" xlink:href="#path-3"></use>
+                        <path d="M36.2405579,34.3523563 C36.2405579,30.2863038 35.2870147,24.043294 30.0155395,24.043294 C29.4578066,24.043294 27.1009355,26.5440962 23.5746245,26.5440962 C20.0483134,26.5440962 17.6914423,24.043294 17.1337094,24.043294 C11.8622343,24.043294 10.908691,30.2863038 10.908691,34.3523563 C10.908691,37.2669603 12.8517603,39.0121245 15.7123902,39.0121245 L31.4368587,39.0121245 C34.2974886,39.0121245 36.2405579,37.2669603 36.2405579,34.3523563 L36.2405579,34.3523563 Z M30.4833155,18.2860515 C30.4833155,14.4718784 27.3887976,11.3773605 23.5746245,11.3773605 C19.7604513,11.3773605 16.6659335,14.4718784 16.6659335,18.2860515 C16.6659335,22.1002247 19.7604513,25.1947425 23.5746245,25.1947425 C27.3887976,25.1947425 30.4833155,22.1002247 30.4833155,18.2860515 L30.4833155,18.2860515 Z" fill="#333F48" mask="url(#mask-4)"></path>
+                    </g>
+                </g>
+                <g id="Journey/Connectors/Happy/Right" transform="translate(265.000000, 28.000000)" stroke="#333F48" stroke-width="1.2">
+                    <circle id="Oval-Copy" fill="#FFFFFF" fill-rule="evenodd" cx="4" cy="4" r="4"></circle>
+                    <polyline id="Path-2-Copy" stroke-linecap="round" stroke-linejoin="round" points="109.4 0.2 113.4 4.2 109.405434 8.2"></polyline>
+                </g>
+                <g id="Journey/Connectors/Happy/Right" transform="translate(435.000000, 28.000000)" stroke="#333F48" stroke-width="1.2">
+                    <circle id="Oval-Copy" fill="#FFFFFF" fill-rule="evenodd" cx="4" cy="4" r="4"></circle>
+                    <polyline id="Path-2-Copy" stroke-linecap="round" stroke-linejoin="round" points="109.4 0.2 113.4 4.2 109.405434 8.2"></polyline>
+                </g>
+                <g id="Journey/Connectors/Happy/Right" transform="translate(63.200000, 28.000000)" stroke="#333F48" stroke-width="1.2">
+                    <circle id="Oval-Copy" fill="#FFFFFF" fill-rule="evenodd" cx="4" cy="4" r="4"></circle>
+                    <polyline id="Path-2-Copy" stroke-linecap="round" stroke-linejoin="round" points="109.4 0.2 113.4 4.2 109.405434 8.2"></polyline>
+                </g>
+                <g id="Journey/Analytics/Top/Decrease" transform="translate(483.800000, 13.800000)">
+                    <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 8.365217)">
+                        <circle id="Oval-Copy" fill="#979797" cx="8" cy="9.04347826" r="8"></circle>
+                        <text id="%" font-family="BGFlame-Bold, BG Flame" font-size="6.8" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="1.47377187" y="10.7782609">80%</tspan>
+                        </text>
+                    </g>
+                    <text id="%" font-family="BGFlame-Bold, BG Flame" font-size="6.8" font-weight="bold" fill="#D0021B">
+                        <tspan x="2.14417187" y="6.4826087">-1%</tspan>
+                    </text>
+                </g>
+                <g id="Journey/Analytics/Top/Decrease" transform="translate(313.800000, 13.800000)">
+                    <g id="Group-2" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 8.365217)">
+                        <circle id="Oval-Copy" fill="#979797" cx="8" cy="9.04347826" r="8"></circle>
+                        <text id="%" font-family="BGFlame-Bold, BG Flame" font-size="6.8" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="1.47377187" y="10.7782609">10%</tspan>
+                        </text>
+                    </g>
+                    <text id="%" font-family="BGFlame-Bold, BG Flame" font-size="6.8" font-weight="bold"></text>
+                </g>
+                <g id="Group-5" transform="translate(364.800000, 13.800000)">
+                    <text id="Name" font-family="BGFlame, BG Flame" font-size="7.2" font-weight="normal" line-spacing="9.4" fill="#333F48">
+                        <tspan x="0.0148" y="34">Make a payment Journey</tspan>
+                    </text>
+                    <g id="Group-2" transform="translate(26.800000, 0.000000)">
+                        <polygon id="Path-5" fill="#FFFFFF" points="0.958072917 4.15164931 0.958072917 22.0356771 8.94201389 18.8421007 16.9259549 22.3550347 25.2292535 18.8421007 25.5486111 0.638715278 17.5646701 4.15164931 8.94201389 0.638715278"></polygon>
+                        <path d="M25.8292965,0.147478388 C26.0679843,0.318468269 26.1873264,0.545026463 26.1873264,0.827159767 L26.1873264,18.8836009 C26.1873264,19.0545908 26.140442,19.2084794 26.0466718,19.3452713 C25.9529016,19.4820632 25.8292973,19.5803809 25.6758552,19.6402274 L17.4923157,22.9232167 C17.2877262,23.0172611 17.0831397,23.0172611 16.8785502,22.9232167 L9.00189345,19.7684691 L1.12523668,22.9232167 C1.03999105,22.9659641 0.937697831,22.9873376 0.81835395,22.9873376 C0.656387254,22.9873376 0.502947423,22.940316 0.358029853,22.8462716 C0.119342091,22.6752817 0,22.4487235 0,22.1665902 L0,4.11014907 C0,3.93915919 0.0468843929,3.7852706 0.140654585,3.6484787 C0.234424777,3.51168679 0.358029086,3.41336909 0.511471219,3.35352263 L8.69501072,0.070533326 C8.89960023,-0.0235111087 9.10418667,-0.0235111087 9.30877618,0.070533326 L17.1854329,3.22528086 L25.0620897,0.070533326 C25.3348757,-0.0406100968 25.5906088,-0.0149619993 25.8292965,0.147478388 Z M9.41107042,1.87874228 L9.41107042,18.165447 L16.776256,21.1150077 L16.776256,4.82830298 L9.41107042,1.87874228 Z M1.6367079,4.66158868 L1.6367079,20.9482934 L8.59271647,18.165447 L8.59271647,1.87874228 L1.6367079,4.66158868 Z M24.5506185,18.3321613 L24.5506185,2.04545658 L17.5946099,4.82830298 L17.5946099,21.1150077 L24.5506185,18.3321613 Z" id="" fill="#4A4A4A"></path>
+                    </g>
+                </g>
+                <g id="Journey/Flow/Happy/Single" transform="translate(181.400000, 12.000000)">
+                    <rect id="Rectangle-3" fill="#005EB8" fill-rule="evenodd" x="0" y="0" width="76.2" height="40" rx="1.2"></rect>
+                    <text id="Step" font-family="BGFlame, BG Flame" font-size="7.2" font-weight="normal" line-spacing="8.8" fill="#FFFFFF">
+                        <tspan x="5.4" y="20.4">Account Overview </tspan>
+                    </text>
+                    <text id="Step-type" font-family="BGFlame, BG Flame" font-size="5.6" font-weight="normal" line-spacing="8.8" fill="#FFFFFF">
+                        <tspan x="6" y="10.2">Legacy &amp; New Dashboard</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

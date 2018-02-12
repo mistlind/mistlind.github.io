@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+body.open {
+  overflow: hidden;
+}
+body.open:before {
+  visibility: visible;
+  opacity: 1;
+}
+body:before {
+  content: "";
+  position: absolute;
+  background-color: background: rgb(0,94,184); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(0,94,184,1) 0%, rgba(0,153,255,1) 77%, rgba(106,209,227,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(0,94,184,1) 0%,rgba(0,153,255,1) 77%,rgba(106,209,227,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(0,94,184,1) 0%,rgba(0,153,255,1) 77%,rgba(106,209,227,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005eb8', endColorstr='#6ad1e3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+.burger {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.burger__button {
+    display: block;
+    position: relative;
+    /* background: #2196f3; */
+    width: 50px;
+    height: 50px;
+    /* border-radius: 50%; */
+    text-align: center;
+    vertical-align: middle;
+    transition: all 0.5s ease;
+    /* border: 2px solid transparent; */
+    /* box-shadow: 0px 0px 8px -2px #333; */
+}
+.burger__button.open {
+
+  box-shadow: none;
+}
+.burger__button__icon {
+  display: inline-block;
+  position: absolute;
+  background: #333F48;
+  margin: 0 auto;
+  width: 20px;
+  height: 3px;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transition: all 0.5s ease;
+  transform: translateY(-1px);
+}
+.burger__button__icon:before,
+.burger__button__icon:after {
+  content: "";
+  position: absolute;
+  margin: 0 auto;
+  background: #333F48;
+  width: 20px;
+  height: 3px;
+  left: 0;
+  right: 0;
+  transition: all 0.5s ease;
+}
+.burger__button__icon:before {
+  bottom: 10px;
+  background: #333F48;
+}
+.burger__button__icon:after {
+  top: 10px;
+  background: #333F48;
+}
+.burger__button.open .burger__button__icon {
+  background: transparent;
+}
+.burger__button.open .burger__button__icon:before,
+.burger__button.open .burger__button__icon:after {
+  transform-origin: 0 50%;
+  width: 28.28427125px;
+}
+.burger__button.open .burger__button__icon:before {
+  transform: rotateZ(0.78539816rad);
+}
+.burger__button.open .burger__button__icon:after {
+  transform: rotateZ(-0.78539816rad);
+}
+.burger__menu {
+  list-style-type: none;
+  padding: 0 0 0 20px;
+}
+.burger__menu li {
+  display: block;
+  position: relative;
+  margin: 15px 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+  transform: translateX(-400px);
+}
+.burger__menu a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+
+  font-weight: 100;
+  transition: all 0.4s ease;
+  border-left: 3px solid transparent;
+  padding-left: 0;
+}
+.burger__menu a:hover {
+  padding-left: 30px;
+  border-left: 3px solid #fff;
+}
+.burger__button.open + .burger__menu li {
+  transform: translateX(0);
+  visibility: visible;
+}
+
+a.active {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+nav ul {
+  text-align: left;
+}

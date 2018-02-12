@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="css/main.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="css/menu.css" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+
+    <header>
+      <div>
+        <nav class="burger">
+        <a href="#" class="burger__button" id="burger-button">
+        <span class="burger__button__icon"></span>
+        </a>
+        <ul class="burger__menu">
+          <li><a class="active" href="#">AM Billing &amp; Payments</a></li>
+          <li><a href="#">Team Name</a></li>
+          <li><a href="#">Team Name</a></li>
+          <li><a href="#">Team Name</a></li>
+          <li><a href="#">Team Name</a></li>
+          <li><a href="#">Team Name</a></li>
+        </ul>
+        </nav>
+      </div>
+      <div></div>
+      <div>
+        <p>UK Home Product Performance Maps</p>
+        <p>OAM Billing &amp; Payments</p>
+        <span class="period">{{Period}}</span>
+        <span class="author">{{Author}}</span>
+      </div>
+      <div>
+        <!--<label for="Period">Choose a period</label>-->
+        <select>
+          <option value="">December 2017</option>
+          <option>Febuary 2018</option>
+          <option>January 2018</option>
+        </select>
+      </div>
+      <div>
+        <a href="#">Download PDF</a>
+      </div>
+    </header>
+
+    <div id="content"></div>
+
+    <script id="Performance-map-template" type="text/x-handlebars-template">
+    <section id="bap_map_1">
+      <main>
+        <div class="col a">
+          <div>Journey</div>
+          <div></div>
+          <div>{{Journey}}</div>
+        </div>
+        <div class="col b">
+          <div>User need</div>
+          <div></div>
+          <div>{{User_need}}</div>
+        </div>
+        <div class="col c">
+          <div>Journey overview</div>
+          <div>c1</div>
+        </div>
+        <div class="col d">
+          <div>Unique visitors</div>
+          <div></div>
+          <div class="down">16,799</div>
+          <div>{{Unique_visits}}</div>
+        </div>
+        <div class="col e">
+          <div>Conversion</div>
+          <div></div>
+          <div class="down">16%</div>
+          <div>{{Conversion}}</div>
+        </div>
+        <div class="col f">
+          <div>Net Conversion</div>
+          <div></div>
+          <div class="up">0</div>
+          <div>{{Net_conversion}}</div>
+        </div>
+        <div class="col g">
+          <div>Conversion &amp; visits by device</div>
+          <div></div><!-- Desktop icon-->
+          <div></div><!-- Tablet icon-->
+          <div></div><!-- Mobile icon-->
+          <div>{{Desktop_conversion}}</div><!-- Desktop -->
+          <div>{{Tablet_conversion}}</div><!-- Tablet -->
+          <div>{{Mobile_conversion}}</div><!-- Mobile -->
+          <div>{{Desktop_visits}}</div><!-- Desktop -->
+          <div>{{Tablet_visits}}</div><!-- tabletop -->
+          <div>{{Mobile_visits}}</div><!-- Mobile -->
+        </div>
+        <div class="col h">
+          <div>Phone calls</div>
+          <div></div>
+          <div class="up">0.4%</div>
+          <div>60,000</div>
+        </div>
+        <div class="col i">
+          <div>Monthly journey value</div>
+          <div>{{Value_month}}</div>
+        </div>
+        <div class="col j">
+          <div>Annual journey value</div>
+          <div>{{Value_year}}</div>
+        </div>
+      </main>
+    </section>
+
+  </script>
+
+  <script type="text/javascript" src="js/handlebars.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/tabletop.js"></script>
+  <script type="text/javascript" src="js/menu.js"></script>
+
+  <script type="text/javascript">
+    var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1lrXNtJMEA59jNgzC0xF_DSHVyYGSr5fG4QNUWaqD42M/edit?usp=sharing';
+
+      $(document).ready( function() {
+        Tabletop.init( { key: public_spreadsheet_url,
+                         callback: showInfo,
+                         parseNumbers: true } );
+      });
+
+      function showInfo(data, tabletop) {
+        var source   = $("#Performance-map-template").html();
+        var template = Handlebars.compile(source);
+
+        $.each( tabletop.sheets("Make-a-payment").all(), function(i, map) {
+          var html = template(map);
+          $("#content").append(html);
+        });
+
+      }
+
+      <!--document.write("The published spreadsheet is located at <a target='_new' href='" + public_spreadsheet_url + "'>" + public_spreadsheet_url + "</a>");   -->
+
+    </script>
+
+  </body>
+</html>
