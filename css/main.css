@@ -355,6 +355,8 @@ margin: 20px 0;
     grid-template-areas: "a b c c c c d e f g g g g h i j";
     grid-gap: 0;
     /*border-left: 8px solid #FFA300;*/
+    grid-template-columns: fit-content(100px) fit-content(260px);
+    grid-template-columns: 10% 12%;
   }
 
   main > div {
