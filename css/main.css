@@ -6,7 +6,7 @@ body, div, section, header, main, p, span {
 body {
   background: #eeeeee;
   color: #333F48;
-  font-family: 'BGFlame';
+  font-family: 'Lato', sans-serif;
 }
 
 /* M O B I L E */
@@ -200,21 +200,11 @@ header span.period::before {
 /* Typography */
 
 
-@font-face {
-  font-family: "BGFlameWeb-Regular", sans-serif;
-  src: url('fonts/BGFlameWeb-Regular.eot');
-}
-
-@font-face {
-  font-family: "BGFlameWeb-Light", sans-serif;
-  src: url('BGFlameWeb-Light.eot');
-}
-
 header div:nth-child(3) p:nth-child(2) {
   font-size: 1.6em;
   color: #0099FF;
   font-weight: 100;
-  font-family: BGFlame-Light;
+  font-family: 'Lato', sans-serif;
   line-height: 1.5em;
 }
 
@@ -266,7 +256,7 @@ header {
 .col.j div:nth-child(2) {
   font-size: 2.6em;
   font-weight: 100;
-  font-family: BGFlame-Light;
+  font-family: 'Lato', sans-serif;
 }
 
 .col.j div:nth-child(1),
@@ -377,7 +367,7 @@ margin: 20px 0;
     font-size: 2.2em;
     color: #0099FF;
     font-weight: 100;
-    font-family: BGFlame-Light;
+    font-family: 'Lato', sans-serif;
   }
 
   header div:nth-child(3) p:nth-child(1) {
